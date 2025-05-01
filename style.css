@@ -5,17 +5,31 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-header{
+.wrapper{
+    width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+}
+header{
+    background-color: orange;
+    padding: 15px;
+}
+nav.navbar{
+    display: flex;
+    gap: 20px;
 }
 ol{
     display: flex;
     gap: 20px;
 }
+img[src]{
+    width: 100%;
+}
 .logo{
-    border: solid black;
-    justify-content: start;
+    width: 70px;
+}
+.logo{
+    display: flex;
+    align-items: center;
 }
